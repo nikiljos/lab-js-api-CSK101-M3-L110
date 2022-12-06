@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.news-card{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.news-card h1{
+    font-size: 1.5rem;
+}
+
+.news-card img{
+    height: 150px;
+    max-width: 90%;
+}
+
+.error{
+    text-align: center;
+}
+code{
+    font-size: 1rem;
+}

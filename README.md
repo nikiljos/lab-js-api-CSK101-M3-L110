@@ -2,6 +2,8 @@
 
 # Kalvium Project-Builder | JS | LIVE NEWS
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.nikjos.in/open?repo=nikiljos/lab-js-api-CSK101-M3-L110)
+
 We have learned all the important concepts in JavaScript. Now lets work with our project builder in building a smartwatch, applying all of the concepts we have just learned.
 
 ## How to approach this lab:
