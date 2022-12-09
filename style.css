@@ -15,10 +15,15 @@ body{
     justify-content: center;
     align-items: center;
 
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
+    box-shadow: 2px 2px 7px #000000a7;
     padding: 10px 20px;
     margin: 20px 0;
+}
+
+.news-card:hover{
+    background-color: #ffaf7a;
 }
 
 .news-card h1{
