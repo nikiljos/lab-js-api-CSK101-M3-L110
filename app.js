@@ -2,7 +2,7 @@ let $content=document.getElementById("content")
 
 if (typeof gnewsApiKey != "string") {
     let error = "Missing API Key! Refer 'env.sample.js' file for more info...";
-    $content.innerHTML = `<div class="error"><h2>🚧🚧 Sorry, Some Error Occured 🚧🚧</h2><code>${error}</div></code>`;
+    $content.innerHTML = `<div class="error"><h2>🚧🚧 Sorry, Some Error Occured 🚧🚧</h2><code>${error}</code></div>`;
     throw error;
 }
 getNews()
